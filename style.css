@@ -1,0 +1,84 @@
+style.css
+
+/*
+
+This is a good layout for a mobile-first CSS template.
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/*********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+
+
+* {
+    box-sizing: border-box;
+
+ 
+}
+/*
+These are my edits for font, color and size of the wesbsite. 
+*/  
+html, body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px;
+    font-family: Lexend, serif;
+}
+.text{
+margin: 10px;
+background-color: white;
+padding:20px;
+max-width:600px;
+
+}
+
+body{
+    background-color: navy blue;
+        margin: 10px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+
+}
+
+figure {
+    margin: auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+figcaption {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+img{
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+
+
+
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
+
+.text{
+        margin: auto;
+    }
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+} 
+
+/*
