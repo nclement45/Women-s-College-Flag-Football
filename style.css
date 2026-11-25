@@ -17,7 +17,7 @@ This is my  mobile-first CSS template for my flag football data story.
  
 }
 /*
-These are my edits for font, color and size of the wesbsite. 
+These are my edits for font, color and size of the flag football data wesbsite. 
 */  
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
@@ -46,7 +46,10 @@ header {
 
 figure {
     margin: auto;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
     max-width: 600px;
 }
 
@@ -67,19 +70,22 @@ img{
   YOUR TABLET/DESKTOP STYLES GO HERE
 *********************************************************************/
 @media(min-width: 681px) {
-img{
-    max-width: 100%;
-    margin: auto;
-    display: block;
+
+	img{
+	    max-width: 100%;
+	    margin: auto;
+	    display: block;
+	}
+
+	 
+	    
+	   
+
+	.text{
+	        margin: auto;
+	    }
+
 }
-
- 
-    
-   }
-
-.text{
-        margin: auto;
-    }
 /*********************************************************************
   YOUR DESKTOP-ONLY STYLES GO HERE
 *********************************************************************/
